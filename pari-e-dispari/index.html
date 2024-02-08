@@ -4,7 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>pari e dispari</title>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
 
 
 
@@ -25,7 +30,39 @@
 
 
 
-<body>
+<body data-bs-theme="dark">
+
+    <main class="container d-flex flex-column align-items-center ">
+        <h1>pari e dispari</h1>
+        <p>L’utente sceglie pari o dispari.<br>
+            Inserisce un numero da 1 a 5.<br>
+            Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).<br>
+            Sommiamo i due numeri.<br>
+            Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione).<br>
+            Se l'utente ha indovinato l'esito (pari o dispari) della somma ha vinto, altrimenti ha perso.</p>
+
+        <div>
+            <input id="start-game" class="btn btn-primary" type="submit" value="start game">
+
+        </div>
+        <div class="mt-5">
+
+            <div id="player-row">
+
+            </div>
+            <div id="computer-row">
+
+            </div>
+
+            <div id="result-row">
+
+            </div>
+
+            <div id="vinto-perso-row">
+
+            </div>
+        </div>
+    </main>
 
 
 
